@@ -1,0 +1,109 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #555;
+}
+
+/* Header styles */
+header {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+/* Main content styles */
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.job {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Button */
+.apply-now-btn {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.apply-now-btn:hover {
+  background-color: #45a049;
+}
+
+/* Search box and Location dropdown */
+#filters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#filters input,
+#filters select {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  #filters {
+    flex-direction: column;
+  }
+}
