@@ -1,5 +1,5 @@
 ;(function () {
-  // Initialize Adzuna key and application ID
+  // Initialize Adzuna and application ID
   const isnull = 'e00527af1252728ba336e432a47b3219' // Replace with your own
   const adzunaAppID = '2218b6bd'
 
